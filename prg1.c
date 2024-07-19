@@ -1,4 +1,4 @@
-#define min(a, b) ((a) < (b) ? (a) : (b))
+ #define min(a, b) ((a) < (b) ? (a) : (b))
 int balancedString(char* s) {
     int n = strlen(s);
     int target = n / 4;
